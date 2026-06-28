@@ -2,15 +2,29 @@
   "name": "the-real-deal",
   "version": "1.0.0",
   "description": "\"learning about backend through this project ig\"",
-  "main": "index.js",
-  "type" : "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "homepage": "https://github.com/Priesttttt/backend#readme",
+  "bugs": {
+    "url": "https://github.com/Priesttttt/backend/issues"
   },
-  "author": "sarthak",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Priesttttt/backend.git"
+  },
   "license": "ISC",
+  "author": "sarthak",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start" : "nodemon src/index.js"
+  },
   "devDependencies": {
     "nodemon": "^3.1.14",
     "prettier": "^3.8.4"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.1"
   }
 }
